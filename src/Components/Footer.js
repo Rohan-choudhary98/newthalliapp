@@ -11,7 +11,7 @@ function Footer() {
     <>
       <div id="foot">
         <div className="footContainer" id="footContainer1">
-          <img src={logo} />
+          <img src={logo} alt="abc" />
         </div>
         <div className="footContainer" id="footContainer2">
           <h1>Indian Thali</h1>
