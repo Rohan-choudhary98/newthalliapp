@@ -20,9 +20,9 @@ function Banner() {
             disableOnInteraction: false,
           }}
           className="mySwiper">
-          <SwiperSlide><img src={Banner1} /></SwiperSlide>
-          <SwiperSlide><img src={Banner2} /></SwiperSlide>
-          <SwiperSlide><img src={Banner3} /></SwiperSlide>
+          <SwiperSlide><img src={Banner1} alt="abc" /></SwiperSlide>
+          <SwiperSlide><img src={Banner2} alt="def"/></SwiperSlide>
+          <SwiperSlide><img src={Banner3} alt="fgh"/></SwiperSlide>
         </Swiper>
       </div>
     </>
