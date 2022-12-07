@@ -16,7 +16,7 @@ function CartCard(props) {
       Dispatch(setTotalBillAmount(acc));
       return acc;
     }, 0)
-  }, [sum])
+  }, [sum,Dispatch,addToCartItems])
   
   function handleDeleteItem() {
     Dispatch(removeItemsFromCart(ind));
